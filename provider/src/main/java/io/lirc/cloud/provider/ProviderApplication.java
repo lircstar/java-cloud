@@ -15,7 +15,6 @@ public class ProviderApplication {
 		Scanner scan = new Scanner(System.in);
 		String port = scan.nextLine();
 		//SpringApplication.run(ProviderApplication.class, args);
-		new SpringApplicationBuilder(ProviderApplication.class).properties(
-				"server.port=" + port).run(args);
+		new SpringApplicationBuilder(ProviderApplication.class).properties("server.port=" + port).run(args);
 	}
 }
