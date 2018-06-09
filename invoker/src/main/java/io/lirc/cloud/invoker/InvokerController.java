@@ -25,7 +25,7 @@ public class InvokerController {
 		RestTemplate restTpl = getRestTemplate();
 		// 根据应用名称调用服务
 		String json = restTpl.getForObject(
-				"http://service-provider/person/1", String.class);
+				"http://cloud-provider/person/1", String.class);
 		return json;
 	}
 }
