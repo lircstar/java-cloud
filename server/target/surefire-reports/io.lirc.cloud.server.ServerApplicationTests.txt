@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: io.lirc.cloud.server.ServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.397 s <<< FAILURE! - in io.lirc.cloud.server.ServerApplicationTests
+initializationError(io.lirc.cloud.server.ServerApplicationTests)  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [io.lirc.cloud.server.ServerApplicationTests]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\project\java\java-cloud\server\target\test-classes\io\lirc\cloud\server\ServerApplicationTests.class], Generic bean: class [io.lirc.cloud.server.ServerApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\project\java\java-cloud\server\target\classes\io\lirc\cloud\server\ServerApplication.class]]
+
